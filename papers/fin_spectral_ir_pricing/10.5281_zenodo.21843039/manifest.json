@@ -1,0 +1,28 @@
+{
+  "schema_version": 1,
+  "topic": "fin_spectral_ir_pricing",
+  "release_tuple": {
+    "concept_doi": "10.5281/zenodo.21843038",
+    "doi": "10.5281/zenodo.21843039",
+    "record_url": "https://zenodo.org/records/21843039",
+    "receipt_ref": "sha256:c29e519d6306786d5c04c256efaab2700b06ee7077c365cccecdb3457fd14b0f",
+    "source_sha256": "f40832332196db7dcfc9d57aae5b03a1c4244c49a6fddca7e088f9ea2675b7b3",
+    "pdf_sha256": "f85ba402ea2d17175385e1a5096cfceb6296f7ebfc6e496b0baf97e929a7acc8"
+  },
+  "zenodo_files": {
+    "pdf": "Nagy_2026_an_audited_contract_boundary_for_cos_caplet_pricing.pdf",
+    "source": "fin_spectral_ir_pricing.md"
+  },
+  "license": {
+    "id": "cc-by-4.0",
+    "url": ""
+  },
+  "files": {
+    "LICENSE": "afaec4bbee041c9edef3a390e0e996fd06e04cd637b2296ee46aee5cfc81d2ea",
+    "paper.pdf": "f85ba402ea2d17175385e1a5096cfceb6296f7ebfc6e496b0baf97e929a7acc8",
+    "README.md": "919033f49a279b16f4e21c500bfe2f5229af67e0a0637ee925b7d2ab71eceb13",
+    "REPRODUCE.md": "61e6859a8479b391e09cbbb29c3e52ef737e9567ab58aeb1e1ac0129d8d3bf6e",
+    "source/fin_spectral_ir_pricing.md": "f40832332196db7dcfc9d57aae5b03a1c4244c49a6fddca7e088f9ea2675b7b3"
+  },
+  "external_effect": "none; human approval is still required before any thalens-open push or tag"
+}
