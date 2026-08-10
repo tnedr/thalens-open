@@ -1,0 +1,28 @@
+{
+  "schema_version": 1,
+  "topic": "fin_learned_basis",
+  "release_tuple": {
+    "concept_doi": "10.5281/zenodo.21875617",
+    "doi": "10.5281/zenodo.21875861",
+    "record_url": "https://zenodo.org/records/21875861",
+    "receipt_ref": "sha256:00f227a206d054a37003a8e05829b38e38e4bb0a0bcb0efa16d154146aea9509",
+    "source_sha256": "6d92d8ffdf6f073a0eaadcd7a3d4d5ba0584fd814ea8b377d1594503da3a9af7",
+    "pdf_sha256": "1ff00d28cdd13f5b14cdb36b947b565ef26bf7f26cab289b9dec9437f214e8f5"
+  },
+  "zenodo_files": {
+    "pdf": "Nagy_2026_Three_Modes_for_Simulated_Risk_A_Data_Driven_Spectral_Basis_for_Portfolio_Loss_Distributions_20260810.pdf",
+    "source": "paper.md"
+  },
+  "license": {
+    "id": "cc-by-4.0",
+    "url": ""
+  },
+  "files": {
+    "LICENSE": "afaec4bbee041c9edef3a390e0e996fd06e04cd637b2296ee46aee5cfc81d2ea",
+    "paper.pdf": "1ff00d28cdd13f5b14cdb36b947b565ef26bf7f26cab289b9dec9437f214e8f5",
+    "README.md": "342f1e54f9bc0e95d3d3373cdaa8b7e425c2e7f9a273daf690207296e19fe07b",
+    "REPRODUCE.md": "61e6859a8479b391e09cbbb29c3e52ef737e9567ab58aeb1e1ac0129d8d3bf6e",
+    "source/paper.md": "6d92d8ffdf6f073a0eaadcd7a3d4d5ba0584fd814ea8b377d1594503da3a9af7"
+  },
+  "external_effect": "none; human approval is still required before any thalens-open push or tag"
+}
