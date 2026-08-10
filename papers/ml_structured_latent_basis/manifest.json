@@ -1,0 +1,28 @@
+{
+  "schema_version": 1,
+  "topic": "ml_structured_latent_basis",
+  "release_tuple": {
+    "concept_doi": "10.5281/zenodo.21854223",
+    "doi": "10.5281/zenodo.21877950",
+    "record_url": "https://zenodo.org/records/21877950",
+    "receipt_ref": "sha256:40210527967ad3d1b02c33eb47b90e652758775ab1575ed45d9c74ad3e60c145",
+    "source_sha256": "f1b96abe92e6bcdc66f36f2fab473d715bfdb6dd8fc5299922c77cc17816372a",
+    "pdf_sha256": "83b5550c10259ea86257aadf35b28b8deb6d00d10754fd97f3dcf680f446524b"
+  },
+  "zenodo_files": {
+    "pdf": "Nagy_2026_the_structured_latent_basis_feature_engineering_as_basis_selection.pdf",
+    "source": "ml_structured_latent_basis.md"
+  },
+  "license": {
+    "id": "cc-by-4.0",
+    "url": ""
+  },
+  "files": {
+    "LICENSE": "afaec4bbee041c9edef3a390e0e996fd06e04cd637b2296ee46aee5cfc81d2ea",
+    "paper.pdf": "83b5550c10259ea86257aadf35b28b8deb6d00d10754fd97f3dcf680f446524b",
+    "README.md": "957c40aa525bb6368b487eaf0ffdcecaa0e90e3101975b329ca76393edab71ec",
+    "REPRODUCE.md": "61e6859a8479b391e09cbbb29c3e52ef737e9567ab58aeb1e1ac0129d8d3bf6e",
+    "source/ml_structured_latent_basis.md": "f1b96abe92e6bcdc66f36f2fab473d715bfdb6dd8fc5299922c77cc17816372a"
+  },
+  "external_effect": "none; human approval is still required before any thalens-open push or tag"
+}
