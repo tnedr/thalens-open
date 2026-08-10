@@ -25,3 +25,14 @@ The release assets are byte-identical to the certified Zenodo PDF and reproducib
 - Verified lifecycle receipt: `sha256:40210527967ad3d1b02c33eb47b90e652758775ab1575ed45d9c74ad3e60c145`
 
 The release assets are byte-identical to the certified Zenodo PDF and reproducibility package.
+
+### Three Modes for Simulated Risk: A Data-Driven Spectral Basis for Portfolio Loss Distributions — v2
+
+- Zenodo record: https://zenodo.org/records/21875861
+- Version DOI: https://doi.org/10.5281/zenodo.21875861
+- Concept DOI: https://doi.org/10.5281/zenodo.21875617
+- Source SHA-256: `6d92d8ffdf6f073a0eaadcd7a3d4d5ba0584fd814ea8b377d1594503da3a9af7`
+- PDF SHA-256: `1ff00d28cdd13f5b14cdb36b947b565ef26bf7f26cab289b9dec9437f214e8f5`
+- Verified lifecycle receipt: `sha256:00f227a206d054a37003a8e05829b38e38e4bb0a0bcb0efa16d154146aea9509`
+
+The public mirror preserves the exact Zenodo PDF and manuscript source. The Zenodo version also includes the reproducibility archive.
