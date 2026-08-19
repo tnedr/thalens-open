@@ -1,0 +1,62 @@
+{
+  "problem": "Gaussian-process inference: certified low-rank (K+sigma^2 I)^-1 and log-det",
+  "method": "latent_compile -> Woodbury solve + matrix determinant lemma, with a propagated resolvent-perturbation certificate on the posterior",
+  "cases": [
+    {
+      "label": "smooth_rbf_lowrank",
+      "n": 4000,
+      "d": 4,
+      "lengthscale": 2.5,
+      "sigma2": 0.05,
+      "eps": 0.05,
+      "exact_time_s": 0.21270008401188534,
+      "exact_mll": -4326.684777422342,
+      "certified": {
+        "accepted": true,
+        "rank": 239,
+        "eps_target": 0.05,
+        "tol_rel_at_noise_floor": 1.0223407171879604e-06,
+        "certified_rel_fro_error": 1.021110720070334e-06,
+        "ideal_speedup": 8.368200836820083,
+        "discovery_time_s": 1.7232849589927355,
+        "reason": "bounded-error latent replacement with certified cost advantage",
+        "time_s": 0.004193209009827115,
+        "logdet": -11643.941999412797,
+        "mll": -4329.387986386329,
+        "operator_error_fro": 0.0024969922035360938,
+        "alpha_rel_certified_bound": 0.04993984407072187
+      },
+      "verdict": "compiled",
+      "speedup_solve_only": 50.724894350223416,
+      "speedup_incl_discovery_one_shot": 0.12312750919325645,
+      "posterior_mean_rel_error": 2.0769393529066295e-05,
+      "alpha_rel_actual_error": 0.002121493600765204,
+      "alpha_rel_certified_bound": 0.04993984407072187,
+      "alpha_bound_holds": true,
+      "mll_abs_error": 2.703208963986981,
+      "nystrom_posterior_mean_rel_error": 0.019680268647451205,
+      "nystrom_has_certificate": false
+    },
+    {
+      "label": "rough_rbf_control",
+      "n": 4000,
+      "d": 4,
+      "lengthscale": 0.25,
+      "sigma2": 0.01,
+      "eps": 0.05,
+      "exact_time_s": 0.42664499999955297,
+      "exact_mll": -3418.3986460195065,
+      "certified": {
+        "accepted": false,
+        "rank": 4000,
+        "eps_target": 0.05,
+        "tol_rel_at_noise_floor": 5.680310248249697e-06,
+        "certified_rel_fro_error": 7.598994893139654e-15,
+        "ideal_speedup": 0.5,
+        "discovery_time_s": 35.91841575001308,
+        "reason": "certified representation exists but has no useful cost advantage"
+      },
+      "verdict": "rejected_fall_back_to_exact"
+    }
+  ]
+}
