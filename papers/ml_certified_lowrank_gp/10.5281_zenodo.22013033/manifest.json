@@ -1,0 +1,45 @@
+{
+  "schema_version": 1,
+  "topic": "ml_certified_lowrank_gp",
+  "release_tuple": {
+    "concept_doi": "10.5281/zenodo.22013032",
+    "doi": "10.5281/zenodo.22013033",
+    "record_url": "https://zenodo.org/records/22013033",
+    "receipt_ref": "sha256:1c94502bd49ba14fcb33c3ea454ddcb3566ecce5706e768f6b415157dac74102",
+    "source_sha256": "a057fb11e3841cbf80b25e9d410559a829087c8e6b44e43c37dc248cf932d069",
+    "pdf_sha256": "16c1d1ad7c1edc51f01779941254b68ec63b716e420e5dc3b30e121554a6ca55"
+  },
+  "zenodo_files": {
+    "pdf": "paper.pdf",
+    "source": "paper.md"
+  },
+  "license": {
+    "id": "cc-by-4.0",
+    "url": "https://creativecommons.org/licenses/by/4.0/"
+  },
+  "reproducibility_archive_sha256": "7ac7f0256425df8cac07c80bf432790f4e5afb95cafc4791c8b5d4742ce7a5b7",
+  "files": {
+    "LICENSE": "afaec4bbee041c9edef3a390e0e996fd06e04cd637b2296ee46aee5cfc81d2ea",
+    "code/experiments/latent_gp_certified_demo.py": "795a62b33cbbfd51ba5e88a64844d1a6e11b11f70388aa41a7285e1cd478935e",
+    "code/forge/meta_algorithmic_latent/latent_gp_certified_results.json": "28bf8cde2ca89f1a838d1296619c11c8932e884f02d395df05e1ccd449ceb34e",
+    "code/forge/ml_certified_lowrank_gp/REPRODUCIBILITY.md": "2ecaa32ec0e57c59823561a023439e359f12fec04f57f72e9485133697d3549e",
+    "code/forge/ml_certified_lowrank_gp/reproduction_0813_full.json": "7ae543399d0399cd376cb772c07812ca763c67b4e3fc7c5f764aafc4e4c2c1d0",
+    "code/forge/ml_certified_lowrank_gp/reproduction_0813_full.py": "cf90b2f8a90086f7e5ea26efef313c09f677e1cf09299726f87359346cc2384a",
+    "code/forge/ml_certified_lowrank_gp/smoke_reproduction.py": "cfd454846cb9e3bf6785f00da3e53cf8a250dca005d15c2ba8875ef22c4a8595",
+    "code/src/latent_compiler/__init__.py": "e2a6407ec80ade009573b362c196e45a725d0a02b4b398c3aa876aad26ca8b8d",
+    "code/src/latent_compiler/__main__.py": "102942c02cdbea1e98069b7486b9c6e21d2694d84d78fca0ff104d352566d68b",
+    "code/src/latent_compiler/about.md": "ffd2e2227624819ead42a31d7b408cf3998fa74253c427dd24311720cac2bc68",
+    "code/src/latent_compiler/cli.py": "c2e1866883456380f56e9568045457e53866a65da9e91b6b79e3584d8984906b",
+    "code/src/latent_compiler/core.py": "053e63e4890e0acd1c3e36d84014105ec0f3beb052e68a2bd4d095aa9280383f",
+    "code/src/latent_compiler/hankel.py": "49f8c50c3115fc1cae3e82255001ce4a47a6477a4be13da6921baae048f63be3",
+    "code/src/latent_compiler/lowering.py": "68826ecbbef54549d0bea2250d8fac5715ffa8be532611560e4d30d2d2c8fc42",
+    "code/src/latent_compiler/native.py": "80389690f950bf909c9258e496ad8bd2070525f39a0ac453683a8405d09d6632",
+    "code/src/latent_compiler/operator.py": "a396de24de9f6382c83295c643260014ff0aa0eedc0f35ab833f1f692e52d2cf",
+    "code/src/latent_compiler/resolvent.py": "625c953c8e2e7b20a8aeb87b25b779cab560ab7010496b7c3336968629b2aa78",
+    "paper.pdf": "16c1d1ad7c1edc51f01779941254b68ec63b716e420e5dc3b30e121554a6ca55",
+    "README.md": "629889433b1e4669046fd4a5ac774e83ecd0bb5ccac76530d2f908852dd9ffeb",
+    "REPRODUCE.md": "531282d0220012e2d5916d384c5ed8912273d87565acd16b5ef46ff09524150d",
+    "source/paper.md": "a057fb11e3841cbf80b25e9d410559a829087c8e6b44e43c37dc248cf932d069"
+  },
+  "external_effect": "none; human approval is still required before any thalens-open push or tag"
+}

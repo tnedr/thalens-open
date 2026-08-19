@@ -4,6 +4,18 @@ Public technical mirror for research releases by Dr. Tamás Nagy. Zenodo is the 
 
 ## Releases
 
+### Certified Low-Rank Gaussian Processes via the Noise-Floor Rule — v0.2
+
+- Zenodo record: https://zenodo.org/records/22013033
+- Version DOI: https://doi.org/10.5281/zenodo.22013033
+- Concept DOI: https://doi.org/10.5281/zenodo.22013032
+- Source SHA-256: `a057fb11e3841cbf80b25e9d410559a829087c8e6b44e43c37dc248cf932d069`
+- PDF SHA-256: `16c1d1ad7c1edc51f01779941254b68ec63b716e420e5dc3b30e121554a6ca55`
+- Reproducibility archive SHA-256: `7ac7f0256425df8cac07c80bf432790f4e5afb95cafc4791c8b5d4742ce7a5b7`
+- Verified lifecycle receipt: `sha256:1c94502bd49ba14fcb33c3ea454ddcb3566ecce5706e768f6b415157dac74102`
+
+The mirror preserves the exact Zenodo manuscript and PDF and includes the verified reproducibility code and evidence bundle.
+
 ### An Audited Contract Boundary for COS Caplet Pricing — v0.3
 
 - Zenodo record: https://zenodo.org/records/21843039
