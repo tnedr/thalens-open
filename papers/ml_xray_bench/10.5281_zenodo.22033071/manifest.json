@@ -1,0 +1,28 @@
+{
+  "schema_version": 1,
+  "topic": "ml_xray_bench",
+  "release_tuple": {
+    "concept_doi": "10.5281/zenodo.22033070",
+    "doi": "10.5281/zenodo.22033071",
+    "record_url": "https://zenodo.org/records/22033071",
+    "receipt_ref": "sha256:4b815f5f0315e8c65363ebb857101df6dfa932c9a96e91b176566f74db119b62",
+    "source_sha256": "db2a17695a8fbbf5ecd23e298fbe570d03db74e59e852e557c56fe11aeda8745",
+    "pdf_sha256": "075926edf0180a07d9a8c8be9dddfc6613acda821ea063fdf001a0c99d0b2c4f"
+  },
+  "zenodo_files": {
+    "pdf": "Nagy_2026_where_does_mathematical_skill_live_a_controlled_biopsy_of_transformer_mathematical_representatio.pdf",
+    "source": "ml_xray_bench.md"
+  },
+  "license": {
+    "id": "cc-by-4.0",
+    "url": ""
+  },
+  "files": {
+    "LICENSE": "afaec4bbee041c9edef3a390e0e996fd06e04cd637b2296ee46aee5cfc81d2ea",
+    "paper.pdf": "075926edf0180a07d9a8c8be9dddfc6613acda821ea063fdf001a0c99d0b2c4f",
+    "README.md": "1858ae09fd6e2b182c1ceef15b7be82d094c4d04c7fe760705b75548c2063760",
+    "REPRODUCE.md": "61e6859a8479b391e09cbbb29c3e52ef737e9567ab58aeb1e1ac0129d8d3bf6e",
+    "source/ml_xray_bench.md": "db2a17695a8fbbf5ecd23e298fbe570d03db74e59e852e557c56fe11aeda8745"
+  },
+  "external_effect": "none during staging; the exact-hash Zenodo publication approval authorizes the later thalens-open push/tag for this same release tuple"
+}
